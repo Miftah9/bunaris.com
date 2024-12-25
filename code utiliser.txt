@@ -1,0 +1,78 @@
+1)
+-----------------------------------------
+pour creer les differents tables :
+-----------------------------------------
+php artisan make:migration create_apropos_table
+php artisan make:migration create_blocs_table
+php artisan make:migration create_chambres_table
+php artisan make:migration create_contact_table
+php artisan make:migration create_culthist_table
+php artisan make:migration create_hotel_table
+php artisan make:migration create_iles_table
+php artisan make:migration create_inbox_table
+php artisan make:migration create_pays_table
+php artisan make:migration create_promouvoir_table
+php artisan make:migration create_radio_table
+php artisan make:migration create_reservations_table
+php artisan make:migration create_roles_table
+php artisan make:migration create_sponsors_table
+php artisan make:migration create_tours_table
+php artisan make:migration create_tv_table
+php artisan make:migration create_views_table
+
+
+-----------------------------------------
+
+
+2)
+-----------------------------------------
+pour creer les differents models :
+-----------------------------------------
+php artisan make:model Apropos
+php artisan make:model Bloc
+php artisan make:model Chambre
+php artisan make:model Contact
+php artisan make:model Culthist
+php artisan make:model Hotel
+php artisan make:model Ile
+php artisan make:model Inbox
+php artisan make:model Pays
+php artisan make:model Promouvoir
+php artisan make:model Radio
+php artisan make:model Reservation
+php artisan make:model Role
+php artisan make:model Sponsor
+php artisan make:model Tour
+php artisan make:model Tv
+php artisan make:model View
+
+-----------------------------------------
+
+
+3)
+-----------------------------------------
+pour creer les differents Controller :
+-----------------------------------------
+
+
+php artisan make:controller AproposController -r
+php artisan make:controller BlocController -r
+php artisan make:controller ChambreController -r
+php artisan make:controller ContactController -r
+php artisan make:controller CulthistController -r
+php artisan make:controller HotelController -r
+php artisan make:controller IleController -r
+php artisan make:controller InboxController -r
+php artisan make:controller PaysController -r
+php artisan make:controller PromouvoirController -r
+php artisan make:controller RadioController -r
+php artisan make:controller ReservationController -r
+php artisan make:controller RoleController -r
+php artisan make:controller SponsorController -r
+php artisan make:controller TourController -r
+php artisan make:controller TvController   -r
+php artisan make:controller ViewController -r
+
+
+
+-----------------------------------------
